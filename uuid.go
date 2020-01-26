@@ -8,7 +8,7 @@ import (
     "crypto/rand"
 )
 
-// UUID .
+// UUID just outputs a random uuid
 func UUID() (string) {
     b := make([]byte, 16)
     _, err := rand.Read(b)
